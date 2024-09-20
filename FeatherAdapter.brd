@@ -332,6 +332,36 @@
 <text x="-1.651" y="0" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="1.651" y="0" size="0.6096" layer="27" font="vector" ratio="15" rot="R90" align="top-center">&gt;VALUE</text>
 </package>
+<package name="LED_0603">
+<smd name="CATHODE" x="-0.8" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="ANODE" x="0.8" y="0" dx="0.8" dy="0.8" layer="1"/>
+<wire x1="-0.127" y1="0" x2="0.254" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0" x2="0.254" y2="0.254" width="0.127" layer="21"/>
+<wire x1="0.254" y1="0.254" x2="0.254" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.254" x2="-0.127" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="0.4" x2="-0.8" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-0.4" x2="0.8" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-0.4" x2="0.8" y2="0.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="0.4" x2="-0.8" y2="0.4" width="0.127" layer="21"/>
+<text x="0" y="0.889" size="0.6096" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="SWITCH_4.5MM">
+<description>&lt;b&gt;4.5mmx4.5mm Gull Wing Tactile Switch&lt;/b&gt;&lt;br&gt;&lt;a href = "https://www.ckswitches.com/media/2567/pts647.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<circle x="0" y="0" radius="1.15" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="1.75" x2="-2.25" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="-1.75" x2="-1.75" y2="-2.25" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.75" y1="-2.25" x2="1.75" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-2.25" x2="2.25" y2="-1.75" width="0.127" layer="21" curve="90"/>
+<wire x1="2.25" y1="-1.75" x2="2.25" y2="1.75" width="0.127" layer="21"/>
+<wire x1="2.25" y1="1.75" x2="1.75" y2="2.25" width="0.127" layer="21" curve="90"/>
+<wire x1="1.75" y1="2.25" x2="-1.75" y2="2.25" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="2.25" x2="-2.25" y2="1.75" width="0.127" layer="21" curve="90"/>
+<smd name="1" x="-2.625" y="1.6" dx="1" dy="1.55" layer="1" rot="R90"/>
+<smd name="4" x="2.625" y="-1.6" dx="1" dy="1.55" layer="1" rot="R270"/>
+<smd name="3" x="-2.625" y="-1.6" dx="1" dy="1.55" layer="1" rot="R270"/>
+<smd name="2" x="2.625" y="1.6" dx="1" dy="1.55" layer="1" rot="R90"/>
+<text x="0" y="2.794" size="0.6096" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
 </packages>
 </library>
 <library name="Particle-Devices" urn="urn:adsk.eagle:library:5952892">
@@ -515,6 +545,38 @@ Key = E&lt;br&gt;</description>
 <text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 <rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="21"/>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="21"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="R0603">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="21"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="21"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1" layer="1"/>
+<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="21"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="21"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="C0603">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.40025" x2="0.356" y2="0.40025" width="0.127" layer="21"/>
+<wire x1="-0.356" y1="-0.38725" x2="0.356" y2="-0.38725" width="0.127" layer="21"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1" layer="1"/>
+<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="21"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="21"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 </packages>
@@ -774,11 +836,88 @@ design rules under a new name.</description>
 <attribute name="NAME" x="2.54" y="-37.084" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="2.54" y="-39.116" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
 </element>
+<element name="D2" library="bschulz" package="LED_0603" value="LEDBLUE0603" x="0" y="-41.91" smashed="yes">
+<attribute name="DIGIKEY" value="732-4966-1-ND" x="0" y="-41.91" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Wurth" x="0" y="-41.91" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="150060BS75000" x="0" y="-41.91" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="0" y="-41.021" size="0.6096" layer="21" font="vector" ratio="15" align="center"/>
+</element>
+<element name="D3" library="bschulz" package="LED_0603" value="LEDAMBER0603" x="0" y="-44.45" smashed="yes">
+<attribute name="DIGIKEY" value="732-150060AS75000CT-ND" x="0" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Wurth" x="0" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="150060AS75000" x="0" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="0" y="-43.561" size="0.6096" layer="21" font="vector" ratio="15" align="center"/>
+</element>
+<element name="R1" library="bschulz_passives" package="R0603" value="1k" x="-3.81" y="-43.18" smashed="yes">
+<attribute name="DIGIKEY" value="311-1KLDCT-ND" x="-3.81" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Yageo" x="-3.81" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="AC0603FR-071KL" x="-3.81" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.81" y="-41.783" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="-3.81" y="-44.577" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE_PART" value="1k" x="-3.81" y="-43.18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="S1" library="bschulz" package="SWITCH_4.5MM" value="BUTTON4.5X4.5" x="-1.27" y="-49.53" smashed="yes">
+<attribute name="DIGIKEY" value="PTS647SN50SMTR2LFSCT-ND" x="-1.27" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="C&amp;K" x="-1.27" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="PTS 647 SN50 SMTR2 LFS" x="-1.27" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-1.27" y="-46.736" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
+</element>
+<element name="S2" library="bschulz" package="SWITCH_4.5MM" value="BUTTON4.5X4.5" x="-1.27" y="-55.88" smashed="yes">
+<attribute name="DIGIKEY" value="PTS647SN50SMTR2LFSCT-ND" x="-1.27" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="C&amp;K" x="-1.27" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="PTS 647 SN50 SMTR2 LFS" x="-1.27" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-1.27" y="-53.086" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
+</element>
+<element name="C3" library="bschulz_passives" package="C0603" value="0.1uF" x="-7.62" y="-55.88" smashed="yes">
+<attribute name="DIGIKEY" value="490-6051-1-ND" x="-7.62" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="-7.62" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GCM188R71E104KA57D" x="-7.62" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-7.62" y="-54.483" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="-7.62" y="-57.277" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
+</element>
+<element name="R2" library="bschulz_passives" package="R0603" value="10k" x="-11.43" y="-55.88" smashed="yes">
+<attribute name="DIGIKEY" value="311-10.0KHRCT-ND" x="-11.43" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Yageo" x="-11.43" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="-11.43" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-11.43" y="-54.483" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="-11.43" y="-57.277" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE_PART" value="10k" x="-11.43" y="-55.88" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R3" library="bschulz_passives" package="R0603" value="10k" x="-15.24" y="-55.88" smashed="yes">
+<attribute name="DIGIKEY" value="311-10.0KHRCT-ND" x="-15.24" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Yageo" x="-15.24" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="-15.24" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-15.24" y="-54.483" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="-15.24" y="-57.277" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE_PART" value="10k" x="-15.24" y="-55.88" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R4" library="bschulz_passives" package="R0603" value="4.7k" x="-19.05" y="-55.88" smashed="yes">
+<attribute name="DIGIKEY" value="311-4.70KHRCT-ND" x="-19.05" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Yageo" x="-19.05" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0603FR-074K7L" x="-19.05" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-19.05" y="-54.483" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="-19.05" y="-57.277" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE_PART" value="4.7k" x="-19.05" y="-55.88" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R5" library="bschulz_passives" package="R0603" value="4.7k" x="-22.86" y="-55.88" smashed="yes">
+<attribute name="DIGIKEY" value="311-4.70KHRCT-ND" x="-22.86" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Yageo" x="-22.86" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0603FR-074K7L" x="-22.86" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-22.86" y="-54.483" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="-22.86" y="-57.277" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE_PART" value="4.7k" x="-22.86" y="-55.88" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R6" library="bschulz_passives" package="R0603" value="4.7k" x="-26.67" y="-55.88" smashed="yes">
+<attribute name="DIGIKEY" value="311-4.70KHRCT-ND" x="-26.67" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Yageo" x="-26.67" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0603FR-074K7L" x="-26.67" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-26.67" y="-54.483" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="-26.67" y="-57.277" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE_PART" value="4.7k" x="-26.67" y="-55.88" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="U1" pad="76"/>
-<contactref element="U1" pad="77"/>
 <contactref element="USB1" pad="5"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
@@ -795,6 +934,14 @@ design rules under a new name.</description>
 <contactref element="U1" pad="15"/>
 <contactref element="U1" pad="21"/>
 <contactref element="MS1" pad="4"/>
+<contactref element="U1" pad="77"/>
+<contactref element="U1" pad="76"/>
+<contactref element="D2" pad="CATHODE"/>
+<contactref element="S1" pad="4"/>
+<contactref element="S1" pad="3"/>
+<contactref element="S2" pad="3"/>
+<contactref element="S2" pad="4"/>
+<contactref element="C3" pad="2"/>
 <wire x1="29.34" y1="22.86" x2="18.131" y2="53.43" width="0" layer="19" extent="16-16"/>
 <wire x1="28.5" y1="8.47" x2="29.34" y2="22.86" width="0" layer="19" extent="1-16"/>
 <wire x1="27.4" y1="7.695" x2="28.5" y2="8.47" width="0" layer="19" extent="1-1"/>
@@ -812,23 +959,12 @@ design rules under a new name.</description>
 <wire x1="3.49" y1="-30.21" x2="11.46" y2="-8.09" width="0" layer="19" extent="1-1"/>
 <wire x1="3.49" y1="-34.29" x2="3.49" y2="-30.21" width="0" layer="19" extent="1-1"/>
 <wire x1="3.19" y1="-38.1" x2="3.49" y2="-34.29" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VCC">
-<contactref element="U1" pad="2"/>
-<contactref element="U1" pad="4"/>
-<contactref element="U1" pad="6"/>
-<contactref element="U1" pad="8"/>
-<wire x1="26.15" y1="15.245" x2="26.65" y2="15.245" width="0" layer="19" extent="1-1"/>
-<wire x1="25.65" y1="15.245" x2="26.15" y2="15.245" width="0" layer="19" extent="1-1"/>
-<wire x1="27.15" y1="15.245" x2="26.65" y2="15.245" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="3V3">
-<contactref element="U1" pad="10"/>
-<contactref element="U1" pad="12"/>
-<wire x1="24.65" y1="15.245" x2="25.15" y2="15.245" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="VBUS">
-<contactref element="U1" pad="16"/>
+<wire x1="-0.8" y1="-41.91" x2="3.19" y2="-38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="1.355" y1="-51.13" x2="-0.8" y2="-41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.895" y1="-51.13" x2="1.355" y2="-51.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.77" y1="-55.88" x2="-3.895" y2="-51.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.895" y1="-57.48" x2="-6.77" y2="-55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="1.355" y1="-57.48" x2="-3.895" y2="-57.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIM_VCC">
 <contactref element="U1" pad="67"/>
@@ -840,8 +976,10 @@ design rules under a new name.</description>
 <contactref element="USB1" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="C2" pad="1"/>
+<contactref element="U1" pad="16"/>
 <wire x1="1.59" y1="-34.29" x2="1.89" y2="-38.1" width="0" layer="19" extent="1-1"/>
 <wire x1="8.86" y1="-8.09" x2="1.59" y2="-34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="23.65" y1="15.245" x2="8.86" y2="-8.09" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D+_IN">
 <contactref element="R9" pad="2"/>
@@ -855,9 +993,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="D+">
 <contactref element="R9" pad="1"/>
+<contactref element="U1" pad="11"/>
+<wire x1="1.89" y1="-17.78" x2="24.9" y2="7.695" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D-">
 <contactref element="R10" pad="1"/>
+<contactref element="U1" pad="13"/>
+<wire x1="5.7" y1="-17.78" x2="24.4" y2="7.695" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BAT+">
 <contactref element="Q1" pad="1"/>
@@ -932,7 +1074,9 @@ design rules under a new name.</description>
 <signal name="D7">
 <contactref element="MS1" pad="24"/>
 <contactref element="U1" pad="72"/>
-<wire x1="9.65" y1="15.245" x2="6.22" y2="35.56" width="0" layer="19" extent="1-16"/>
+<contactref element="R1" pad="1"/>
+<wire x1="9.65" y1="15.245" x2="-4.66" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="6.22" y1="35.56" x2="9.65" y2="15.245" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="D6">
 <contactref element="MS1" pad="23"/>
@@ -971,18 +1115,84 @@ design rules under a new name.</description>
 </signal>
 <signal name="!RST">
 <contactref element="U1" pad="34"/>
+<contactref element="S1" pad="2"/>
+<contactref element="S1" pad="1"/>
+<contactref element="C3" pad="1"/>
+<contactref element="R2" pad="1"/>
+<wire x1="-8.47" y1="-55.88" x2="-12.28" y2="-55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.895" y1="-47.93" x2="-8.47" y2="-55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="1.355" y1="-47.93" x2="-3.895" y2="-47.93" width="0" layer="19" extent="1-1"/>
+<wire x1="19.15" y1="15.245" x2="1.355" y2="-47.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MODE">
 <contactref element="U1" pad="32"/>
+<contactref element="S2" pad="1"/>
+<contactref element="S2" pad="2"/>
+<contactref element="R3" pad="1"/>
+<wire x1="-3.895" y1="-54.28" x2="-16.09" y2="-55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="1.355" y1="-54.28" x2="-3.895" y2="-54.28" width="0" layer="19" extent="1-1"/>
+<wire x1="19.65" y1="15.245" x2="1.355" y2="-54.28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RED">
 <contactref element="U1" pad="61"/>
+<contactref element="R6" pad="2"/>
+<wire x1="12.4" y1="7.695" x2="-25.82" y2="-55.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GREEN">
 <contactref element="U1" pad="63"/>
+<contactref element="R5" pad="2"/>
+<wire x1="11.9" y1="7.695" x2="-22.01" y2="-55.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BLUE">
 <contactref element="U1" pad="65"/>
+<contactref element="R4" pad="2"/>
+<wire x1="11.4" y1="7.695" x2="-18.2" y2="-55.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="3V3">
+<contactref element="U1" pad="12"/>
+<contactref element="U1" pad="10"/>
+<contactref element="R2" pad="2"/>
+<contactref element="R3" pad="2"/>
+<contactref element="D1" pad="2"/>
+<wire x1="-10.58" y1="-55.88" x2="-14.39" y2="-55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="1.04" y1="-3.34" x2="-10.58" y2="-55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="24.65" y1="15.245" x2="1.04" y2="-3.34" width="0" layer="19" extent="1-1"/>
+<wire x1="25.15" y1="15.245" x2="24.65" y2="15.245" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="U1" pad="8"/>
+<contactref element="U1" pad="2"/>
+<contactref element="U1" pad="4"/>
+<contactref element="U1" pad="6"/>
+<wire x1="26.15" y1="15.245" x2="25.65" y2="15.245" width="0" layer="19" extent="1-1"/>
+<wire x1="26.65" y1="15.245" x2="26.15" y2="15.245" width="0" layer="19" extent="1-1"/>
+<wire x1="27.15" y1="15.245" x2="26.65" y2="15.245" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ANODE">
+<contactref element="D3" pad="ANODE"/>
+</signal>
+<signal name="CATHODE">
+<contactref element="D3" pad="CATHODE"/>
+</signal>
+<signal name="N$2">
+<contactref element="D2" pad="ANODE"/>
+<contactref element="R1" pad="2"/>
+<wire x1="0.8" y1="-41.91" x2="-2.96" y2="-43.18" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="D1" pad="1"/>
+<contactref element="R6" pad="1"/>
+<wire x1="1.04" y1="-1.74" x2="-27.52" y2="-55.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="D1" pad="4"/>
+<contactref element="R5" pad="1"/>
+<wire x1="4.04" y1="-1.74" x2="-23.71" y2="-55.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="D1" pad="3"/>
+<contactref element="R4" pad="1"/>
+<wire x1="4.04" y1="-3.34" x2="-19.9" y2="-55.88" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
