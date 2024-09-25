@@ -9572,23 +9572,23 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U3" library="bschulz" deviceset="MCP7383*" device="SOT" technology="2"/>
 <part name="C5" library="bschulz_passives" deviceset="C-EU" device="C0805" technology="4.7UF" value="4.7uF"/>
 <part name="C6" library="bschulz_passives" deviceset="C-EU" device="C0805" technology="4.7UF" value="4.7uF"/>
-<part name="R1" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="2K" value="2k"/>
+<part name="R1" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="2K" value="2k"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="F1" library="bschulz" deviceset="PPTC" device="1.5A"/>
 <part name="Q2" library="bschulz" deviceset="MOSFET-PCH" device="-NX2301P" value="NX2301P"/>
 <part name="Q4" library="bschulz" deviceset="MOSFET-NCH" device="-2N7002P" value="2N7002"/>
-<part name="R2" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="1M" value="1M"/>
+<part name="R2" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="1M" value="1M"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R4" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="1M" value="1M"/>
-<part name="R3" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="4.7K" value="4.7k"/>
-<part name="R5" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="4.7K" value="4.7k"/>
-<part name="R6" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="4.7K" value="4.7k"/>
+<part name="R4" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="1M" value="1M"/>
+<part name="R3" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="4.7K" value="4.7k"/>
+<part name="R5" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="4.7K" value="4.7k"/>
+<part name="R6" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="4.7K" value="4.7k"/>
 <part name="S1" library="bschulz" deviceset="BUTTON" device="4.5X4.5"/>
 <part name="S2" library="bschulz" deviceset="BUTTON" device="4.5X4.5"/>
-<part name="R7" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="100K" value="100k"/>
-<part name="R8" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="100K" value="100k"/>
-<part name="C7" library="bschulz_passives" deviceset="C-EU" device="C0603" technology="0.1UF" value="0.1uF"/>
+<part name="R7" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="100K" value="100k"/>
+<part name="R8" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="100K" value="100k"/>
+<part name="C7" library="bschulz_passives" deviceset="C-EU" device="C0402" technology="0.1UF" value="0.1uF"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9596,9 +9596,9 @@ Source: AVX .. aphvc.pdf</description>
 <part name="D3" library="bschulz" deviceset="LED" device="0603" technology="AMBER"/>
 <part name="JP1" library="bschulz" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK_ROUND"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R11" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="4.7K" value="4.7k"/>
+<part name="R11" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="4.7K" value="4.7k"/>
+<part name="R12" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="4.7K" value="4.7k"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R12" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="4.7K" value="4.7k"/>
 </parts>
 <sheets>
 <sheet>
@@ -9764,12 +9764,12 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="72.39" y="258.0386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.39" y="253.238" size="1.778" layer="96"/>
 </instance>
-<instance part="GND12" gate="1" x="53.34" y="233.68" smashed="yes">
-<attribute name="VALUE" x="50.8" y="231.14" size="1.778" layer="96"/>
-</instance>
 <instance part="R12" gate="G$1" x="43.18" y="256.54" smashed="yes">
 <attribute name="NAME" x="39.37" y="258.0386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.37" y="253.238" size="1.778" layer="96"/>
+</instance>
+<instance part="GND12" gate="1" x="142.24" y="203.2" smashed="yes">
+<attribute name="VALUE" x="139.7" y="200.66" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9917,9 +9917,12 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="68.58" y1="228.6" x2="68.58" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="CATHODE"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="U3" gate="G$1" pin="VSS"/>
+<wire x1="142.24" y1="208.28" x2="139.7" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="53.34" y1="243.84" x2="53.34" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="205.74" x2="142.24" y2="208.28" width="0.1524" layer="91"/>
+<junction x="142.24" y="208.28"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
@@ -10021,6 +10024,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="17.78" y1="193.04" x2="17.78" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="195.58" x2="15.24" y2="195.58" width="0.1524" layer="91"/>
 <label x="15.24" y="195.58" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="256.54" x2="35.56" y2="256.54" width="0.1524" layer="91"/>
+<label x="35.56" y="256.54" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BAT-" class="0">
@@ -10409,16 +10417,10 @@ Source: AVX .. aphvc.pdf</description>
 <label x="111.76" y="208.28" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="256.54" x2="35.56" y2="256.54" width="0.1524" layer="91"/>
-<label x="35.56" y="256.54" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="U3" gate="G$1" pin="VSS"/>
-<wire x1="142.24" y1="208.28" x2="139.7" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="CATHODE"/>
+<wire x1="53.34" y1="243.84" x2="53.34" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="238.76" x2="55.88" y2="238.76" width="0.1524" layer="91"/>
+<label x="55.88" y="238.76" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
