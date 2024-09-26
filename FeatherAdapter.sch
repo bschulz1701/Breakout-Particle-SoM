@@ -9550,6 +9550,8 @@ Source: AVX .. aphvc.pdf</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="diff pairs" width="0" drill="0">
+</class>
 </classes>
 <parts>
 <part name="U1" library="Particle-Devices" library_urn="urn:adsk.eagle:library:5952892" deviceset="B_SERIES_M.2EKEY_" device="3042" package3d_urn="urn:adsk.eagle:package:10884869/8"/>
@@ -9967,30 +9969,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="124.46" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
 <label x="136.906" y="130.048" size="0.8128" layer="95"/>
-</segment>
-</net>
-<net name="D+" class="0">
-<segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="132.08" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
-<label x="121.92" y="132.08" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="U1" pin="USB_P"/>
-<wire x1="40.64" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
-<label x="38.1" y="114.3" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="D-" class="0">
-<segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="124.46" x2="121.92" y2="124.46" width="0.1524" layer="91"/>
-<label x="121.92" y="124.46" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="U1" pin="USB_N"/>
-<wire x1="40.64" y1="111.76" x2="38.1" y2="111.76" width="0.1524" layer="91"/>
-<label x="38.1" y="111.76" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BAT+" class="0">
@@ -10559,6 +10537,30 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="48.26" y1="256.54" x2="53.34" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="ANODE"/>
 <wire x1="53.34" y1="256.54" x2="53.34" y2="251.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D_N" class="1">
+<segment>
+<pinref part="U1" gate="U1" pin="USB_N"/>
+<wire x1="40.64" y1="111.76" x2="38.1" y2="111.76" width="0.1524" layer="91"/>
+<label x="38.1" y="111.76" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="124.46" x2="121.92" y2="124.46" width="0.1524" layer="91"/>
+<label x="121.92" y="124.46" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="D_P" class="1">
+<segment>
+<pinref part="U1" gate="U1" pin="USB_P"/>
+<wire x1="40.64" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
+<label x="38.1" y="114.3" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="132.08" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
+<label x="121.92" y="132.08" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
